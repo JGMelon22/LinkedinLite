@@ -1,7 +1,7 @@
 # Unnoficial Linkedin Lite
 
 <h2>Sobre o projeto</h2>
-<span>O intuito deste projeto é facilitar o uso da plataforma Linkedin no celular de meu pai, pois o app oficial está travando. Além mar, praticar desenvolvimento Android com a linagueagem Java e componenete WebView</span>
+<span>O intuito deste projeto é facilitar o uso da plataforma Linkedin no celular de meu pai, pois o app oficial está travando. Além mar, praticar desenvolvimento Android com a linguagem Java e componente WebView</span>
 
 <h2>Goodies</h2>
 - Interface nativa para informar ao usuário que está offline;</br>

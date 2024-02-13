@@ -60,9 +60,15 @@ public class MainActivity extends AppCompatActivity {
             // Caso o usuário esteja offline, indica que é preciso ter uma conexão de internet ativa
             @Override
             public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
-                Intent errorIntent = new Intent(getApplicationContext(), ErrorActivity.class);
-                startActivity(errorIntent);
-                finish();
+                super.onReceivedError(view, request, error);
+
+                if (error != null && (error.getErrorCode() == WebViewClient.ERROR_HOST_LOOKUP ||
+                        error.getErrorCode() == WebViewClient.ERROR_CONNECT ||
+                        error.getErrorCode() == WebViewClient.ERROR_TIMEOUT)) {
+                    Intent errorIntent = new Intent(getApplicationContext(), ErrorActivity.class);
+                    startActivity(errorIntent);
+                    finish();
+                }
             }
         });
     }
