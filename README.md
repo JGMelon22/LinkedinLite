@@ -13,12 +13,12 @@
 <h3>Requisitos Recomendados</h3>
 - Android Studio 2023.1.1 Patch 2 <br />
 - OpenJDK 17 <br />
-- Android SDK Platform 34 <br />
+- Android 14 (API level 34) <br />
 
 <h3>Requisitos Mínimos</h3>
 - Android Studio 2023.1.1 Patch 2 <br />
 - OpenJDK 11 <br />
-- Android SDK 29 (podendo modificar no arquivo <code>build.gradle.kts</code> para versões anteriores) <br />
+- Android 10 (API level 29) (podendo modificar no arquivo <code>build.gradle.kts</code> para versões anteriores) <br />
 
 <h3>Como compilar? 🚧</h3>
 - Clone o projeto <br />
