@@ -8,7 +8,7 @@
 - Remoção do pop-up que recomenda o uso do App ao em vez do site no celular.</br>
 
 <h2>Demo</h2>
-<img width="330" src="https://github.com/JGMelon22/LinkedinLite/assets/73988556/3413469f-a583-474d-9977-bb745bcc7c08" />
+<img width="330" src="https://github.com/JGMelon22/LinkedinLite/assets/73988556/4988bd85-9979-49f6-aec3-b176d994e080" />
 
 <h3>Requisitos Recomendados</h3>
 - Android Studio 2023.1.1 Patch 2 <br />
