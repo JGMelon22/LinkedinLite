@@ -10,6 +10,10 @@
 <h2>Demo</h2>
 <img width="330" src="https://github.com/JGMelon22/LinkedinLite/assets/73988556/4988bd85-9979-49f6-aec3-b176d994e080" />
 
+<h3>Limitação conhecida</h3>
+<span>Devido a uma limitação de segurança no componente WebView do Android, não é possível realizar upload de arquivos</span>
+<span>Referência: <a href="https://developer.android.com/develop/ui/views/layout/webapps/webview">Note: For security reasons, the system's browser app doesn't share its application data with your app.</a></span>
+
 <h3>Requisitos Recomendados</h3>
 - Android Studio 2023.1.1 Patch 2 <br />
 - OpenJDK 17 <br />
